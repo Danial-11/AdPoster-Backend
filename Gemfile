@@ -44,9 +44,10 @@ group :development, :test do
   gem 'rspec-rails'
 end
 group :test do
-    gem 'factory_bot_rails'
-    gem 'faker'
-    gem 'simplecov', '~> 0.21.2'
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'rubocop-faker', '~> 1.1'
+  gem 'simplecov', '~> 0.21.2'
 end
 group :test do
   gem 'shoulda-matchers', '~> 5.0'
